@@ -1,0 +1,42 @@
+#accardion{
+    button{
+        width: 100%;
+        padding: 10px;
+        background: red;
+        color: #ffffff;
+        font-size: 1.3em;
+        font-weight: 800;
+
+    }
+    p{
+        display: none;
+    }
+}
+#tabmenu{
+    margin: 5em 50px;
+
+    button{
+        border: none;
+        padding: 14px;
+        background: goldenrod;
+        color: #ffffff;
+        font-size: 1.3em;
+        font-weight: 800;
+        transition: background .3s ease-in;
+        &:hover{
+            background: red;
+        }
+    }
+    .tab-content{
+        margin: 5px 0;
+        border: 2px solid green;
+        padding: 20px;
+        border-radius: 0 0 20px 2px;
+    }
+    p{
+        display: none;
+        &:first-child{
+            display: block
+        }
+    }
+}
